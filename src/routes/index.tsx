@@ -63,7 +63,7 @@ function AppRoutes() {
                 {/* Protected routes */}
                 <Route element={<ProtectedRoute />}>
                     {/* Dashboard wrapper */}
-                    <Route path="/" element={<DashboardWrapper />}>
+                    <Route path="https://sabihat.vercel.app/" element={<DashboardWrapper />}>
                         {/* Dynamic view routes with ID parameters */}
                         {viewRoutes.map((route, i) => (
                             <Route
