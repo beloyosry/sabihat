@@ -16,8 +16,7 @@ const Pagination: React.FC<PaginationProps> = ({
     goToNextPage,
     goToPreviousPage,
     setPage,
-    itemsPerPage,
-    totalItems,
+    
 }) => {
     
 
